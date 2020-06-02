@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="registration" action="index.html" method="post">
+      <div class="registartionContainer">
+        <h1><b>Society Registration Form</b></h1>
+        <table>
+
+        <tr>
+      <td> <label for="societyname"><b>Society Name</b></label></td>
+        <td><input id="societyname" type="text" placeholder="Enter society name " name="societyname" required></td>
+        </tr>
+
+        <tr>
+      <td>  <label for="registerNo"><b>Society Register Number</b></label></td>
+      <td> <input id="registerNo" type="text" name="registerNo" placeholder="Enter society registration Number" required></td>
+        </tr>
+
+        <tr>
+        <td><label for="address"><b>Address</b></label></td>
+        <td><textarea id="address" name="address" rows="6" cols="50"></textarea></td>
+        </tr>
+
+        <tr>
+          <td><label for="state"><b>State</b></label></td>
+          <td><select id="state" name="state">
+            <option value="maharashtra">Maharashtra</option>
+            <option value="tamilnadu">Tamil nadu</option>
+            <option value="telangana">Telangana</option>
+            <option value="delhi">Delhi</option>
+            <option value="Uttarpradesh">Uttarpradesh</option>
+          </select></td>
+        </tr>
+
+        <tr>
+          <td><label for="district"><b>District</b></label></td>
+          <td><select id="district" name="district">
+            <option value="thane">Thane</option>
+            <option value="palghar">Palghar</option>
+            <option value="mumbai">Munbai</option>
+            <option value="buldhana">Buldhana</option>
+            <option value="jalgoan">Jalgoan</option>
+          </select></td>
+        </tr>
+
+        <tr>
+          <td><label for="postalcode"><b>Postal code</b></label></td>
+          <td><input id="postalcode" type="text" name="postalcode"></td>
+        </tr>
+
+
+        </table>
+        <button type="button" name="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
